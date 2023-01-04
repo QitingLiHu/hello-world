@@ -1,2 +1,2 @@
-runtime: python27
-threadsafe: true
+runtime: python310
+entrypoint: gunicorn -b :$PORT main:app
